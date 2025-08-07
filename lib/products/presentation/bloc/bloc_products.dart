@@ -2,7 +2,7 @@ import 'package:flutter_application_products/products/presentation/bloc/bloc_pro
 import 'package:flutter_application_products/products/presentation/bloc/bloc_product_states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-abstract class BlocProducts extends Bloc<BlocProductEvents, BlocProductStates> {
+class BlocProducts extends Bloc<BlocProductEvents, BlocProductStates> {
   //create a object of usescases to fetch data from the repository
   // final UseCase useCase;
   // use get
