@@ -3,7 +3,7 @@ import 'package:flutter_application_products/products/data/model/products.dart';
 import 'package:flutter_application_products/products/data/model/reviews.dart';
 import 'package:flutter_application_products/products/domain/repository/respository.dart';
 
-class RespositoryImpl extends Repository {
+class RespositoryImpl implements Repository {
   //fetch data from the datasource
   //SSOT - MAIN CLASS which handles all data operations - local and remote
 
